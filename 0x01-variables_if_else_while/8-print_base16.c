@@ -2,7 +2,7 @@
 /**
  * main - Hexadecimal Numbers
  *
- * Rwturn: Always (Success)
+ * Return: Always (Success)
  */
 int main(void)
 {
