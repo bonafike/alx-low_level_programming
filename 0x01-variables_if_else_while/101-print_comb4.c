@@ -15,9 +15,9 @@ for (k = '0'; k <= '9'; k++)
 {
 if (c < i && i < k)
 {
-purchar(c);
-purchar(i);
-purchar(k);
+putchar(c);
+putchar(i);
+putchar(k);
 if (c != '7')
 {
 	putchar(',');
@@ -27,6 +27,6 @@ if (c != '7')
 }
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
