@@ -9,7 +9,7 @@ int main(void)
 int c, i;
 for (c = '0'; c <= '9'; c++)
 {
-for (i = '0'; <= '9'; c++)
+for (i = '0'; i <= '9'; c++)
 {
 if (c < i)
 {
@@ -23,6 +23,6 @@ putchar(' ');
 }
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
