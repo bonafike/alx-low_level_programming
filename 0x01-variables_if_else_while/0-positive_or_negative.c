@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main  prints numbers
+ * main - prints numbers
  *
  * Return:0(success)
  */
