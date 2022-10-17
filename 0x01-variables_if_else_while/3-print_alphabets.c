@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
+ * main - Alphabets
  *
- * main - alphabets
- *
- * Return: always (success)
+ * Return: Always (Success)
  */
 int main(void)
+{
 char c;
-for(c = 'a'; c <= 'z'; c++)
+for (c = 'a'; c <= 'z'; c++)
 {
 putchar(c);
 }
@@ -17,4 +17,4 @@ putchar(c);
 }
 putchar('\n');
 return (0);
-
+}
