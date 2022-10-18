@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - Putchar
+ * main - Prints _putchar
  *
- * Description - Print Putchar
+ * Description: - Print _putchar with nl
  *
  * Return: Always (Success)
  */
