@@ -2,9 +2,9 @@
 /**
  * main - Prints _putchar
  *
- * Description: - Print _putchar with nl
+ * Description: Prints _putchar with nl
  *
- * Return: Always (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
