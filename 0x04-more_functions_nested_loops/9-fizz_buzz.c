@@ -20,6 +20,10 @@ if (i % 3 == 0)
 {
 printf("Fizz");
 }
+if (i % 5 == )
+{
+printf("Buzz");
+}
 }
 else
 {
