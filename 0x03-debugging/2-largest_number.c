@@ -2,9 +2,9 @@
 /**
  * largest_number - returns largest num
  * @a: first integer
- *@b: second
- *@c: third
- *Return: largest number
+ * @b: second
+ * @c: third
+ * Return: largest number
  */
 int largest_number(int a, int b, int c);
 {
