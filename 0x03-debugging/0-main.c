@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * main - Tests functions
- *
  * Return: 0
  */
 int main(void)
