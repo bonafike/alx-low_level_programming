@@ -19,7 +19,7 @@ else
 
 for (i = 1; i <= size; i++)
 {
-for (j = size; j > 0; j--)
+for (j = size - i ; j > 0; j--)
 {
 _putchar(' ');
 }
