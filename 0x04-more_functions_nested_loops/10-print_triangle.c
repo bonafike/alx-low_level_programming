@@ -6,28 +6,22 @@
  * @size: size of triangle
  */
 
-void print_triangle(int size)
+void print_triangle(int n)
 {
-int i, j, k;
+int h, tri;
 
-if (size <= 0)
+if (n > 0)
 {
-_putchar('\n');
-}
-else
+for (h = 1; h <= n; h++)
 {
-
-for (i = 1; i <= size; i++)
-{
-for (j = size - i ; j > 0; j--)
-{
+for (tri = n - h; tri > 0; tri--)
 _putchar(' ');
-}
-for (k = 0; k < i; k++)
-{
+for (tri = 0; tri < h; tri++)
 _putchar('#');
-}
+if (h == n)
+continue;
 _putchar('\n');
 }
 }
+_putchar('\n');
 }
