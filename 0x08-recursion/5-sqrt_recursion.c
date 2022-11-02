@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * _increasevar - increases i to find sqrt
- * @i: starts at 1
+ * _sqrt_recur - increases i to find sqrt
+ * @i: num
  * @n: the number
  * Return: i, i + 1, or -1
  */
-int _increasevar(int i, int n)
+int _sqrt_recur(int i, int n)
 {
 if (i * i == n)
 {
@@ -15,8 +15,7 @@ else if (i * i > n)
 {
 return (-1);
 }
-if (i * i > n)
-return (_sqrt_recur(n, x + 1));
+return (_sqrt_recur(i, n + 1));
 }
 /**
  * _sqrt_recursion - finds sqrt
