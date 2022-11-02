@@ -22,7 +22,7 @@ return (_sqrt_recur(i, n + 1));
  * @n: the number
  * Return: -1, 0, or sqrt
  */
-int _sqrt_recursion(int i)
+int _sqrt_recursion(int n)
 {
-return (_sqrt_recur(i, 0));
+return (_sqrt_recur(n, 0));
 }
