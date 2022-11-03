@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * _is_prime_num - looks for prime
  * @n: the number
@@ -8,7 +7,7 @@
  */
 int _is_prime_num(int n, int i)
 {
-if (n <= 1 || (n != x && n % x == 0))
+if (n <= 1 || (n != i && n % i == 0))
 {
 return (0);
 }
