@@ -26,7 +26,7 @@ return (1);
 }
 if (*s == *(s + x - 1))
 {
-return (chekker(s + 1 , x -2));
+return (chekker(s + 1, x - 2));
 }
 else
 {
