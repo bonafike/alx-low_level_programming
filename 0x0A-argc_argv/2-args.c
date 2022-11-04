@@ -3,13 +3,13 @@
 
 /**
  * main - print the name of program
- * @argc:Count arguments
+ * @argc: Count arguments
  * @argv: Arguments
  *
  * Return: Always 0 (Success)
  */
 
-int main(int argc; char *argv[])
+int main(int argc, char *argv[])
 {
 
 /*Declaring Variables*/
