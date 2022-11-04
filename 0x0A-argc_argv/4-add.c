@@ -8,7 +8,8 @@
  * @argv: array of pointer
  * Return: 1 or 0
  */
-int main(int argc, *char argv[])
+
+int main(int argc, char *argv[])
 {
 int i, j, sum;
 
@@ -22,14 +23,14 @@ for (i = 1; i < argc; i++)
 {
 for (j = 0; argv[i][j] != '\0'; j++)
 {
-for (isdigit(argv[i][j]))
+if (isdigit(argv[i][j]))
 {
 continue;
 }
 else
 {
 printf("Error\n");
-return (0);
+return (1);
 }
 }
 sum += atoi(argv[i]);
