@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * cg_free_grid - free
+ * ch_free_grid - free
  * @grid: multidimensional array
  * @height: height of array
  *
@@ -36,7 +36,7 @@ for (c = height = 0; str[c] != '\0'; c++)
 if (str[c] != ' ' && (str[c + 1] == ' ' || str[c +1] == '\0'))
 height++;
 aout = malloc((height + 1) * sizeof(char *));
-if (aut == NULL || height == 0)
+if (aout == NULL || height == 0)
 {
 free(aout);
 return (NULL);
