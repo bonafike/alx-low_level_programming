@@ -13,8 +13,8 @@ void ch_free_grid(char **grid, unsigned int height)
 if (grid != NULL && height != 0)
 {
 for (; height > 0; height--)
-free (grid[height]);
-free (grid[height];
+free(grid[height]);
+free(grid[height];
 free(grid);
 }
 }
@@ -27,7 +27,7 @@ free(grid);
  */
 char **strtow(char *str)
 {
-char **out;
+char **aout;
 unsigned int c, height, i, j, a1;
 
 if (str == NULL || *str == '\0')
