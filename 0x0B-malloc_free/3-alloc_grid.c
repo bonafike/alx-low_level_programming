@@ -16,11 +16,11 @@ int i, j;
 if (width < 1 || height < 1)
 return (NULL);
 
-gridout = malloc(height * sizeof (int *));
+gridout = malloc(height * sizeof(int *));
 if (gridout == NULL)
 {
 free(gridout);
-return(NULL);
+return (NULL);
 }
 
 for (i = 0; i < height; i++)
