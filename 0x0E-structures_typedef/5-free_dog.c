@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#inlude "dog.h"
+#include "dog.h"
 
 /**
  * free_dog - free instance of struct dog
