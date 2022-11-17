@@ -1,5 +1,5 @@
 #include "variadic_functions.h"
-#include <stdrg.h>
+#include <stdarg.h>
 #include <stdio.h>
 /**
  * print_strings - prints the string parameter
@@ -14,7 +14,7 @@ va_list ap;
 char *str;
 
 va_start(ap, n);
-for (i = 0; i < n; i++)
+fori (i = 0; i < n; i++)
 {
 str = va_arg(ap, char *);
 if (str == NULL)
@@ -26,4 +26,4 @@ printf("%s", separator);
 }
 va_end(ap);
 printf("\n");
-}
+}i
