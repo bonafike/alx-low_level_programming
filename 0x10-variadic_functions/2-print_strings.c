@@ -14,7 +14,7 @@ va_list ap;
 char *str;
 
 va_start(ap, n);
-fori (i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 str = va_arg(ap, char *);
 if (str == NULL)
