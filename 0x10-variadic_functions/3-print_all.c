@@ -1,4 +1,4 @@
-#include "variadic_function.h"
+#include "variadic_functions.h"
 #include <stdio.h>
 #include <stdarg.h>
 /**
@@ -14,7 +14,7 @@ printf("%c", va_arg(list, int));
 /**
  * p_string - print string
  * @list:arg
- * Return:void
+ * Return: void
  */
 
 void p_string(va_list list)
