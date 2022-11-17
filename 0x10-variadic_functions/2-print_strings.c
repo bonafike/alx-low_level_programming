@@ -9,7 +9,7 @@
  */
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-unsigned int 1;
+unsigned int i;
 va_list ap;
 char *str;
 
@@ -26,4 +26,4 @@ printf("%s", separator);
 }
 va_end(ap);
 printf("\n");
-}i
+}
