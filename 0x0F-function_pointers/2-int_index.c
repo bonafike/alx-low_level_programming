@@ -1,31 +1,37 @@
-#include "function_pointers.h"
-
+#include "3-calc.h"
 /**
- * int_index - searches for an integer
- *
- * @array: array of integer
- * @size: number of elements in the array
- * @cmp: a pointer to the function to be
- * compare values
- *
- * Return: int (index of the number in the array)
- */
-
+  *int_index - searches for an integer.
+  *@array: array of integers.
+  *@size: number of elements in array.
+  *@cmp: pointer to function used to compare values.
+  *Return: -1 If no element matches
+  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	int i;
+	int i, res;
 
-	if (size < 1)
-		return (-1);
-
+	res = -1;
 	if (array && cmp)
 	{
+
+		if (size <= 0)
+		{
+			return (res);
+		}
 		for (i = 0; i < size; i++)
 		{
-			if (cmp(array[i]))
-				return (i);
+			cmp(array[i]);
+			if (cmp(array[i]) > 0)
+			{
+				res = i;
+				break;
+			}
+			if ((cmp(array[i]) == (-1)))
+			{
+				return (res);
+			}
 		}
-	}
 
-	return (-1);
+	}
+	return (res);
 }
